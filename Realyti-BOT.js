@@ -28,7 +28,7 @@ client.on('message', message => {
         console.log('bref salut');
     }
 
-    if (message.content === "****"){
+    if (message.content === "!!!v"){
         message.reply("j'avoue c vrais");
         console.log('bref salut');
     }
@@ -43,7 +43,7 @@ client.on('message', message => {
         console.log('bref salut');
     }    
 
- if (message.content === "gg"){
+ if (message.content === "!!!jk"){
         message.reply("gggg");
         console.log('bref salut');
     }   
