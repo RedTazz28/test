@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-var prefix = "?";
+var prefix = "*";
 
 client.login("NDY1NjE4NjI2NDA2NTE0Njg4.DzTAvA.ClGDhJnRIkImyX_Zrgk5eTu9w5Y");
 
@@ -44,7 +44,7 @@ client.on('message', message => {
     }    
 
  if (message.content === "gg"){
-        message.reply("");
+        message.reply("gggg");
         console.log('bref salut');
     }   
 });
