@@ -38,8 +38,8 @@ client.on('message', message => {
         console.log('bref salut');
     }
     
-    if (message.content === "a"){
-        message.reply("");
+    if (message.content === "!!!a"){
+        message.reply("ggg");
         console.log('bref salut');
     }    
 
