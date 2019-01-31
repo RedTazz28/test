@@ -39,12 +39,12 @@ client.on('message', message => {
     }
     
     if (message.content === "a"){
-        message.reply("ouai antonie tg tu casse les couille salle baptou");
+        message.reply("");
         console.log('bref salut');
     }    
 
- if (message.content === ""){
-        message.reply("ouai antonie tg tu casse les couille salle baptou");
+ if (message.content === "gg"){
+        message.reply("");
         console.log('bref salut');
     }   
 });
